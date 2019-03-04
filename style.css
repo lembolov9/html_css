@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    width: 900px;
+    width: 750px;
     margin: 0 auto;
 }
 
@@ -16,20 +16,21 @@ body {
     height: 325px;
     background-image: url("sergey.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: -50px 0;
 }
 
 .photo h1 {
     color: aliceblue;
     position: absolute;
-    top: 100px;
+    top: 140px;
     right: 20px;
     margin: 0;
     padding: 0;
 }
 .about-and-contacts {
+    color: aliceblue;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 25px;
     float: left;
     background-color: #232c35;
     width: 50%;
@@ -37,10 +38,24 @@ body {
 }
 
 .contacts {
-    color: aliceblue;
-    margin: 10px auto;
+    margin:  0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid aliceblue;
 }
 
 .contacts td:not(:last-child) {
-    padding-right: 100px ;
+    padding-right: 35px ;
+}
+
+.info {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid aliceblue;
+}
+
+.technologies {
+    padding-left: 20px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid aliceblue;
 }
