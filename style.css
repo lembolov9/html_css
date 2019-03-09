@@ -9,18 +9,22 @@ body {
     margin: 0 auto;
 }
 
-.photo {
-    float: left;
+.container > div {
     position: relative;
+    float: left;
     width: 50%;
     height: 325px;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+.photo {
     background-image: url("sergey.png");
     background-repeat: no-repeat;
     background-position: -50px 0;
 }
 
 .photo h1 {
-    color: aliceblue;
     position: absolute;
     top: 140px;
     right: 20px;
@@ -28,13 +32,8 @@ body {
     padding: 0;
 }
 .about-and-contacts {
-    color: aliceblue;
-    box-sizing: border-box;
     padding: 25px;
-    float: left;
     background-color: #232c35;
-    width: 50%;
-    height: 325px;
 }
 
 .contacts {
@@ -58,4 +57,29 @@ body {
     margin-top: 30px;
     padding-bottom: 10px;
     border-bottom: 2px solid aliceblue;
+}
+.education,
+.experience-and-language {
+    background-color: #232c35;
+    padding: 20px 20px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.language,
+.experience,
+.education ul {
+    border-bottom: 2px solid aliceblue;
+}
+
+.education {
+    background-color: #dec49f;
+    padding: 20px 20px;
+}
+
+.education li {
+    margin-bottom: 40px;
 }
