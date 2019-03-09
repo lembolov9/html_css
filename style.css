@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    width: 750px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ body {
 .photo {
     background-image: url("sergey.png");
     background-repeat: no-repeat;
-    background-position: -50px 0;
+    background-size: 100%;
 }
 
 .photo h1 {
