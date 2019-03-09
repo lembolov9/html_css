@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    margin: 20px 0 0;
+    margin: 0;
     background-color: aliceblue;
 }
 
@@ -82,4 +82,10 @@ h2 {
 
 .education li {
     margin-bottom: 40px;
+}
+
+@media (pointer: coarse) {
+    .container div {
+        float: none;
+    }
 }
