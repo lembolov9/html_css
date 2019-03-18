@@ -41,7 +41,7 @@ table {
     border-radius: 2%;
 }
 
-@media (max-width: 600px ) {
+@media (max-width: 1080px ) {
     .container {
         width: 100%;
     }
