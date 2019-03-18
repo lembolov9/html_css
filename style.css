@@ -1,6 +1,6 @@
 body {
-    padding: 0;
     margin: 0;
+    padding: 20px 0 0;
     background-color: aliceblue;
     display: flex;
 }
@@ -43,7 +43,7 @@ table {
 
 @media (max-width: 1080px ) {
     .container {
-        width: 100%;
+        width: 90%;
     }
 
     .container > div {
