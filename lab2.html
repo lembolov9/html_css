@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lab2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body >
+    <header>
+        <div id="navbarHeader" class="collapse bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-3">
+                        <p class="text-dark">
+                            Мы продаем самые крутые кроссовки, которые только существуют.
+                            Поставки осуществляются напрямую от производителей, поэтому не волнуйся насчет качества и цен.
+                            Если ты не нашёл интересующую тебя модель, напиши нам на почту, попробуем найти!
+                        </p>
+                        <h4 class="text-dark">О нас</h4>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-3">
+                        <h4 class="text-dark">Контакты</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark">Подпишись на инсту</a></li>
+                            <li><a href="#" class="text-dark">И на страничку ВК</a></li>
+                            <li><a href="#" class="text-dark">Наше мыло</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-light bg-light">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <strong>Привет сникерхед!</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">
+                    Мир кросс
+                </h1>
+                <p class="lead text-dark">
+                    У нас есть для тебя несколько только вышедших моделей, выбирай на свой вкус!<br>
+                    Не забудь заглянуть в соц сети, там ты найдешь инструкции по получении скидки.
+                </p>
+                <a href="#" class="btn btn-primary my-2">Отправиться сразу в каталог</a>
+            </div>
+        </section>
+            <h2 style="text-align: center" class="pt-5 pb-3">Новинки</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card box-shadow">
+                            <img class="card-img-top"  alt="p" style="height: 225px; width: 100%; display: block;" src="img/1.jpg">
+                            <div class="card-body">
+                                <p class="card-text"> Абсолютный хит от Nike. Подошва с применением технологии React.</p>
+                                    <div class="btn-group d-flex">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Беру!</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top"  alt="p" style="height: 225px; width: 100%; display: block;" src="img/2.jpg">
+                            <div class="card-body">
+                                <p class="card-text">Нестареющая классика от New Balance. Полной ресток.</p>
+                                <div class="btn-group d-flex">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Беру!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top"  alt="p" style="height: 225px; width: 100%; display: block;" src="img/3.jpg">
+                            <div class="card-body">
+                                <p class="card-text">Очередная новинка от Adidas, попробуй подбери одежду под них!</p>
+                                <div class="btn-group d-flex">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Беру!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 style="text-align: center" class="py-5">У вас есть вопросы?</h2>
+                <form style="background-color: #eee" class="p-3">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="InputEmail1">Ваша почта</label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Введите почту">
+                            <small id="emailHelp" class="form-text text-muted">Вашу почты мы никому не покажем. </small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="InputName">Имя</label>
+                            <input type="text" class="form-control" id="InputName" placeholder="Как нам к вам обращаться">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="InputText">Ваши вопросы</label>
+                            <textarea class="form-control" rows="10" id="InputText" placeholder="Спросите, что вас интересует"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="display: block; margin: 0 auto 20px auto">Submit</button>
+                </form>
+            </div>
+
+    </main>
+    <footer class="container text-dark pt-5">
+        <div class="container">
+            <p class="float-left">Заходите к нам почаще!</p>
+            <p class="float-right">
+                <a href="#" class="btn">Вернуться наверх</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
